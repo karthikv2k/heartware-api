@@ -1,0 +1,13 @@
+{
+  "name": "heartware-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthikv2k/heartware-api.git"
+  },
+  "dependencies": {
+    "express": "^4.9.8"
+  }
+}
