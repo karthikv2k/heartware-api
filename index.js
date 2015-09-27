@@ -11,6 +11,11 @@ app.get('/status', function(req, res) {
   res.json({'status':status[randomInt(0,3)],'id': Math.random().toString()});
 });
 
+app.get('/feedback/:id/:correct_label', function(req, res) {
+	console.log(req.param("id") + " " + req.param("correct_label") )
+  res.json({'status': 'ok'});
+});
+
 // Dependencies.
 var http = require('http');
 var server = http.Server(app);
